@@ -1,12 +1,12 @@
 :root {
     --bs-body-bg: #d0e1f1;
-    --bs-primary-bg: #1c449b;
-    --bs-primary-rgb: 28, 68, 155;
-    --bs-primary-rgba-half-transparent: 28, 68, 155, 0.5;
-    --bs-secondary-bg: #5776b7;
-    --bs-secondary-rgb: 87, 118, 183;
-    --bs-third-bg: #2555a7;
-    --bs-third-rgb: 37, 85, 167;
+    --bs-primary-bg: #0077B6;
+    --bs-primary-rgb: 0, 119, 182;
+    --bs-primary-rgba-half-transparent: 0, 119, 182, 0.5;
+    --bs-secondary-bg: #CAF0F8;
+    --bs-secondary-rgb: 202, 240, 248;
+    --bs-third-bg: #00B4D8;
+    --bs-third-rgb: 0, 180, 216;
     --title-main-hex :#054568;
     --title-main-rgb : 5, 69, 104;
     --title-sub-hex: #0ba29b;
@@ -14,21 +14,15 @@
 }
 
 .btn.btn-primary {
-    --bs-btn-bg: #15a1a0;
-    --bs-btn-hover-bg: #5ebfc6;
-    --bs-btn-hover-border-color: #a2e1e5;
-    --bs-btn-border-color: #5ebfc6;
+    --bs-btn-bg: #00B4D8;
+    --bs-btn-hover-bg: #ADE8F4;
+    --bs-btn-hover-border-color: #9ce4f2;
+    --bs-btn-border-color: #93d4e1;
+    --bs-btn-hover-color: #000;
     --bs-btn-disabled-bg: #045e5a;
     --bs-btn-disabled-border-color: #265d61;
     --bs-btn-active-bg: #15a1a0;
     --bs-btn-active-border-color: #5ebfc6;
-}
-
-* {
-    --tc-feature-pro-bg: #2a2e70;
-    --tc-feature-passion-bg: #f49430;
-    --tc-feature-fulfill-bg: #cd2e3d;
-    --tc-feature-wish-bg: #450640;
 }
 
 .text-justify {
@@ -168,7 +162,7 @@ nav.navbar .navbar-brand .brand-title h2 {
 }
 
 nav.navbar .nav-item > .nav-link:hover, .dropdown-item:hover {
-    color: #fff;
+    color: #000;
     background-color: RGBA(var(--bs-secondary-rgb),var(--bs-bg-opacity,1))!important;
 }
 
@@ -375,11 +369,12 @@ header.header .slogan-2 {
     padding: 1em;
     transition: .3s;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .detail-link .nav a:hover .inner {
     background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 
 .feature-img {
